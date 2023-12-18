@@ -100,3 +100,10 @@ graph TB
     classDef worker fill:#ccf,stroke:#333,stroke-width:2px;
     class Worker worker;
 ```
+
+
+This diagram includes:
+- The Master Node, which contains components like the ETCD cluster, API Server, Scheduler, and Controller Manager.
+- Worker Nodes, which are the machines where Pods and Services run.
+- Pods and Services within each Node, showcasing how multiple Pods can be associated with a single Service for load balancing and network traffic management.
+
