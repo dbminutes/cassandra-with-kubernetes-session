@@ -62,7 +62,7 @@ cqlsh
 If you encounter any issues, check the Cassandra log files located in `/var/log/cassandra/`.
 
 ### Note
-- The above instructions are for a specific version of Cassandra (3.11.x). Make sure to check for the latest version and modify the repository line accordingly.
+- The above instructions are for a specific version of Cassandra (4.1). Make sure to check for the latest version and modify the repository line accordingly.
 - The setup might vary slightly if you're using a different Linux distribution.
 
 Always refer to the official [Apache Cassandra documentation](http://cassandra.apache.org/doc/) for the most accurate and up-to-date information.
