@@ -842,7 +842,7 @@ Before diving into scaling and updates, ensure you have a good understanding of 
 
 -----------------
 
-Certainly! Networking and storage are two fundamental aspects of Kubernetes, a powerful system for automating deployment, scaling, and management of containerized applications. Let's dive into a brief tutorial covering these topics.
+Networking and storage are two fundamental aspects of Kubernetes, a powerful system for automating deployment, scaling, and management of containerized applications. Let's dive into a brief tutorial covering these topics.
 
 ### Networking in Kubernetes
 
