@@ -1,4 +1,4 @@
-Vertical and horizontal scaling are key concepts in the field of computer science, particularly in the context of system architecture and cloud computing. I'll explain both concepts and use Mermaid, a diagramming and charting tool, to illustrate them.
+Vertical and horizontal scaling are key concepts in the field of computer science, particularly in the context of system architecture and cloud computing. 
 
 1. **Vertical Scaling**: Also known as "scaling up," this involves adding more resources to an existing server. Typically, this means upgrading the CPU, RAM, or storage of a single machine to increase its capacity. It's akin to upgrading a PC from a dual-core to a quad-core processor, or adding more RAM. Vertical scaling usually has limits based on the maximum capacity of the hardware.
 
