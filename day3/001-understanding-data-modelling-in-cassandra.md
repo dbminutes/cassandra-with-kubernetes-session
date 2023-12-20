@@ -72,8 +72,9 @@ SELECT * FROM SocialMedia.UserPosts WHERE UserId = 123e4567-e89b-12d3-a456-42665
 ```
 
 This is a basic example. In practice, your data model in Cassandra will depend on your specific query requirements and data access patterns. It's important to model your data in Cassandra based on how you plan to access it, rather than trying to impose a relational model onto it. Cassandra is designed for high performance, distributed data handling, and it achieves this through its unique data model.
+
 --------------
-##Run following command  in a separate terminal to forward your request to your cassandra service.
+# Run following command  in a separate terminal to forward your request to your cassandra service.
 
 ```bash
 kubectl port-forward svc/cassandra 9042  &
