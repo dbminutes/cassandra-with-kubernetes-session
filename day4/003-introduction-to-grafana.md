@@ -105,3 +105,44 @@ Integrating Apache Cassandra with Grafana allows you to visualize your Cassandra
 - **Community Forums**: For troubleshooting and community support, engage with Grafana and Cassandra community forums or mailing lists.
 
 By following these steps, you can successfully integrate Cassandra with Grafana, enabling powerful visualization and monitoring of your Cassandra database metrics.
+
+-------------------
+
+### Ubuntu Installation
+
+
+### Updated Method for Debian/Ubuntu Systems:
+
+1. **Download Grafana GPG Key**:
+   First, download the Grafana GPG key:
+   ```sh
+   wget -q -O - https://packages.grafana.com/gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/grafana-archive-keyring.gpg
+   ```
+
+2. **Add Grafana APT Repository**:
+   Add the Grafana APT repository to your system's sources list. You'll need to reference the keyring file you just created:
+   ```sh
+   echo "deb [signed-by=/usr/share/keyrings/grafana-archive-keyring.gpg] https://packages.grafana.com/oss/deb stable main" | sudo tee /etc/apt/sources.list.d/grafana.list
+   ```
+
+3. **Install Grafana**:
+   Update your package list and install Grafana:
+   ```sh
+   sudo apt-get update
+   sudo apt-get install grafana
+   ```
+
+4. **Start Grafana**:
+   Enable and start the Grafana service:
+   ```sh
+   sudo systemctl enable grafana-server
+   sudo systemctl start grafana-server
+   ```
+5. **Install Plugin**
+   ```sh
+   sudo grafana-cli plugins install hadesarchitect-cassandra-datasource
+   ```
+   
+
+
+
