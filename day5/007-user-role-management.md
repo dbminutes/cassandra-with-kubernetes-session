@@ -14,9 +14,7 @@ Now, we'll grant `SELECT`, `INSERT`, `UPDATE`, and `DELETE` permissions on the `
 
 ```sql
 GRANT SELECT ON TABLE test.posts TO posts_editor;
-GRANT INSERT ON TABLE test.posts TO posts_editor;
-GRANT UPDATE ON TABLE test.posts TO posts_editor;
-GRANT DELETE ON TABLE test.posts TO posts_editor;
+GRANT MODIFY ON TABLE test.posts TO posts_editor;
 ```
 
 These commands allow the `posts_editor` role to read, insert, update, and delete data in the `posts` table.
